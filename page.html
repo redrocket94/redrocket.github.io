@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="scripts/add_to_total.js" type="text/javascript"></script>
+
+    <title>Hello</title>
+  </head>
+
+  <body>
+        <script src="scripts/ajax_test.js" type="text/javascript"></script>
+
+    <div class="food_table">
+      <table>
+        <!-- Table row, used to describe each entry -->
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th></th>
+        </tr>
+
+        <tr>
+          <td>Glass of Juice</td>
+          <td id="juice_price">5,-</td>
+          <td>
+            <button type="button" name="button1" onclick="updateTotal(juice_price.innerHTML)">Buy</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Glass of Beans</td>
+          <td id="beans_price">10,-</td>
+          <td>
+            <button type="button" name="button2">Buy</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td id="bacon_price">Glass of Turkey Bacon</td>
+          <td>15,-</td>
+          <td>
+            <button type="button" name="button3">Buy</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Total</td>
+          <td></td>
+          <td id="total">0,-</td>
+        </tr>
+
+      </table>
+    </div>
+
+    <script src="scripts/good_morning.js" charset="utf-8"></script>
+
+  </body>
+
+</html>

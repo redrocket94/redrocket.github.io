@@ -1,0 +1,16 @@
+div table,
+div table tr th,
+div table tr td {
+  width: 25%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+div.food_table table tr td button {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 10px;
+  background-color: lightgreen;
+  font-weight:
+}
